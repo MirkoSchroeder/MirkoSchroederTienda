@@ -416,7 +416,15 @@ textarea {
         padding-bottom: 15px;
 }
 
+/* ANIMACIONES */
 
+.animacionZoom {
+    transition: transform .4s;
+}
+ 
+.animacionZoom:hover {
+    transform: scale(1.2); 
+}
 
 /* MEDIA QUERIE MOBILE */
 @media only screen and (max-width: 768px){
