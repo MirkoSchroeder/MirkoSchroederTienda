@@ -58,6 +58,7 @@ header {
     font-size: 60px;
     font-style: italic;
     border-bottom: 5px solid black;
+    margin-bottom: 30px;
 }
 
 .imgBackground {
@@ -260,9 +261,9 @@ footer {
     justify-content: center;
     height: 100%;
     margin-top: 20px;
-  }
+}
   
-  .form {
+.form {
     background-color: #E1E1E1;
     border-radius: 20px;
     box-sizing: border-box;
@@ -271,15 +272,15 @@ footer {
     width: 320px;
     text-align: center;
     font-size: 20px;
-  }
+}
   
-  .title {
+.title {
     color: #000000;
     font-family: sans-serif;
     font-size: 36px;
     font-weight: 600;
     margin-top: 30px;
-  }
+}
   
   
   .input-container {
@@ -294,7 +295,7 @@ footer {
   
   .ic2 {
     margin-top: 30px;
-  }
+}
   
   .input {
     background-color: #303245;
@@ -307,7 +308,7 @@ footer {
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
-  }
+}
   
   .cut {
     background-color: #15172b;
@@ -340,22 +341,22 @@ footer {
     transform-origin: 0 50%;
     transition: transform 200ms, color 200ms;
     top: 20px;
-  }
+}
   
-  .input:focus ~ .placeholder,
-  .input:not(:placeholder-shown) ~ .placeholder {
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
     transform: translateY(-30px) translateX(10px) scale(0.75);
-  }
+}
   
-  .input:not(:placeholder-shown) ~ .placeholder {
+.input:not(:placeholder-shown) ~ .placeholder {
     color: #808097;
-  }
+}
   
-  .input:focus ~ .placeholder {
+.input:focus ~ .placeholder {
     color: #dc2f55;
-  }
+}
   
-  .submit {
+.submit {
     background-color: #08d;
     border-radius: 12px;
     border: 0;
@@ -368,37 +369,54 @@ footer {
     outline: 0;
     text-align: center;
     width: 100%;
-  }
+}
   
-  .submit:active {
+.submit:active {
     background-color: #06b;
-  }
+}
   
-  .mensaje {
+.mensaje {
     height: 200%;
-  }
+}
   
-  .botonFormulario {
+.botonFormulario {
     margin-top: 25%;
-  }
+}
   
-  textarea {
+textarea {
     resize: none;
-  }
+}
 
-  .ofertasMail {
+.ofertasMail {
     width: 50%;
 }
 
-    .botonMail {
+.botonMail {
     margin: 0;
     width: 25%;
     margin-top: 1%;
-    }
+}
 
-    .cutWidht {
+.cutWidht {
         width: 140px;
-    }
+}
+
+.productosNombrePrecio {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* height: 620px; */
+        background-color: #d3d3d3;
+        margin-bottom: 15px;
+}
+
+.productosTxt {
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 15px;
+}
+
+
 
 /* MEDIA QUERIE MOBILE */
 @media only screen and (max-width: 768px){

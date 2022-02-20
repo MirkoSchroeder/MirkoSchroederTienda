@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Online de Mirko</title>
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet icon" href="assets/img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
 
@@ -55,12 +56,36 @@
 
         <div class="productosDestacados productosGrid">
 
-            <img src="assets/img/zapatillaAzul.jpg" alt="">
-            <img src="assets/img/zapatillaBlanca.jpg" alt="">
-            <img src="assets/img/zapatillaNegra.jpg" alt="">
-            <img src="assets/img/gorraAzul.jpg" alt="">
-            <img src="assets/img/gorraNegra.jpg" alt="">
-            <img class="imgRemera" src="assets/img/remeraBordo.jpg" alt="">
+            <div class="productosNombrePrecio animacionZoom">
+                <img src="assets/img/zapatillaAzul.jpg" alt="">
+                <p class="productosTxt">Nike Jordan 1 High Blue Suede</p>
+                <p>$1000</p>
+            </div>
+            <div class="productosNombrePrecio animacionZoom">
+                <img src="assets/img/zapatillaBlanca.jpg" alt="">
+                <p class="productosTxt">Nike Jordan 1 Mid SE Sesame</p>
+                <p>$1000</p>
+            </div>
+            <div class="productosNombrePrecio animacionZoom">
+                <img src="assets/img/zapatillaNegra.jpg" alt="">
+                <p class="productosTxt">Nike Sb Zoom Dunk Low Elite</p>
+                <p>$1000</p>
+            </div>
+            <div class="productosNombrePrecio animacionZoom">
+                <img src="assets/img/gorraAzul.jpg" alt="">
+                <p class="productosTxt">Nike Gorra Sb Watermelon Cap</p>
+                <p>$1000</p>
+            </div>
+            <div class="productosNombrePrecio animacionZoom">
+                <img src="assets/img/gorraNegra.jpg" alt="">
+                <p class="productosTxt">Nike Gorra Jordan Pro</p>
+                <p>$1000</p>
+            </div>
+            <div class="productosNombrePrecio animacionZoom">
+                <img class="imgRemera" src="assets/img/remeraBordo.jpg" alt="">
+                <p class="productosTxt">Nike Remera NSW SS PKT Tee JDI</p>
+                <p>$1000</p>
+            </div>
             
         </div>
 
@@ -110,6 +135,9 @@
 
     </footer>
 
-    
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
