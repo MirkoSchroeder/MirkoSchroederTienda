@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
@@ -44,44 +45,67 @@
         <main>
             
             <h1 class="productos">PRODUCTOS</h1>
-            <h3 class="masVendidos">MAS VENDIDOS</h3>
-            
-            <!-- FOTOS DE PRODUCTOS -->
-            
-            <div class="productosShop">
-                
-                
-                <img src="../assets/img/buzo1.jpg" alt="">
-                <img src="../assets/img/gorro1.jpg" alt="">
-                <img src="../assets/img/musculosa1.jpg" alt="">
-                <img src="../assets/img/ojotas1.jpg" alt="">
-                <img src="../assets/img/pantalon1.jpg" alt="">
-                <img src="../assets/img/remeraBlanca.jpg" alt="">
-                <img src="../assets/img/short1.jpg" alt="">
-                <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
-                <img src="../assets/img/zapatillaBlanca.jpg" alt="">
-                <img src="../assets/img/zapatillaColores.jpg" alt="">
-                <img src="../assets/img/zapatillaColores2.jpg" alt="">
-                <img src="../assets/img/zapatillaRoja.jpg" alt="">
-                
-            </div>
-            
-            <!---  FOTOS REMERAS
 
-            <div>
-                <h2>REMERAS</h2>
+            <!-- FOTOS DE PRODUCTOS -->
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item bgColor" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Buzos</a>
+                </li>
+                <li class="nav-item bgColor" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Remeras</a>
+                </li>
+                <li class="nav-item bgColor" role="presentation">
+                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Zapatillas</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="productosShop">
                 
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                        <img src="../assets/img/buzo1.jpg" alt="">
+                        <img src="../assets/img/gorro1.jpg" alt="">
+                        <img src="../assets/img/musculosa1.jpg" alt="">
+                        <img src="../assets/img/ojotas1.jpg" alt="">
+                        <img src="../assets/img/pantalon1.jpg" alt="">
+                        <img src="../assets/img/remeraBlanca.jpg" alt="">
+                        <img src="../assets/img/short1.jpg" alt="">
+                        <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
+                        <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
+        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="productosShop">
                 
-            </div>
-            --->
+                        <img src="../assets/img/buzo1.jpg" alt="">
+                        <img src="../assets/img/gorro1.jpg" alt="">
+                        <img src="../assets/img/musculosa1.jpg" alt="">
+                        <img src="../assets/img/ojotas1.jpg" alt="">
+                        <img src="../assets/img/pantalon1.jpg" alt="">
+                        <img src="../assets/img/remeraBlanca.jpg" alt="">
+                        <img src="../assets/img/short1.jpg" alt="">
+                        <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
+                        <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
+        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="productosShop">
+                
+                        <img src="../assets/img/buzo1.jpg" alt="">
+                        <img src="../assets/img/gorro1.jpg" alt="">
+                        <img src="../assets/img/musculosa1.jpg" alt="">
+                        <img src="../assets/img/ojotas1.jpg" alt="">
+                        <img src="../assets/img/pantalon1.jpg" alt="">
+                        <img src="../assets/img/remeraBlanca.jpg" alt="">
+                        <img src="../assets/img/short1.jpg" alt="">
+                        <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
+                        <img src="../assets/img/zapatillaAmarilla.jpg" alt="">
+
+                    </div>
+                </div>
+              </div>
 
         </main>
         
@@ -128,6 +152,13 @@
             <!-- CIERRE DE FOOTER -->
     
         </footer>
-           
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
