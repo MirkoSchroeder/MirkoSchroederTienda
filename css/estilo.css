@@ -2,7 +2,6 @@
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
 }
 
 html {
@@ -19,6 +18,10 @@ li {
 
 .marginParrafo {
     margin: 0;
+}
+
+.carrouselBorder {
+    border-bottom: 2px solid #000000;
 }
 
 .nav a {
@@ -112,7 +115,7 @@ header {
 }
 
 .copyright {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .email {
@@ -125,7 +128,6 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
 }
 
 .ofertas {
@@ -142,6 +144,10 @@ header {
     padding: 30px;
 }
 
+footer {
+    background-color: #ebac26;
+}
+
 .redesSociales {
     margin-top: 50px;
     display: flex;
@@ -154,8 +160,8 @@ footer {
 }
 
 .whatsapp {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     padding: 20px;
     position: fixed;
     bottom: 0;
@@ -222,6 +228,7 @@ footer {
     grid-template-rows: auto auto;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    margin-bottom: 53px;
 }
 
 .contenedorPadre {
@@ -525,15 +532,16 @@ textarea {
     }
 
     .whatsapp {
-        width: 50px;
-        top: 50%;
+        width: 90px;
+        height: 90px;
+        top: -15px;
         left: 50%;
         transform: translate(-50%, -50%);
         position: relative;
     }
 
     .wsp {
-        height: 12px;
+        height: 31px;
     }
 
     .email {
