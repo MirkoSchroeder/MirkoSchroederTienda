@@ -1,0 +1,52 @@
+footer {
+    background-color: $bgPrimario;
+    display: flex;
+    flex-direction: column;
+}
+
+.recibirOfertas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ofertas {
+    border-top: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        h1 {
+            color: #000000;
+            font-size: 35px;
+            padding: 30px;
+            }
+}
+
+.ofertasMail {
+    width: 27%;
+}
+
+.redesSociales {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.socialMedia {
+    width: 90px;
+    height: auto;
+}
+
+.whatsapp {
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.copyright {
+    font-size: 13px;
+}

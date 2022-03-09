@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: $bgPrimario;
 }
 
 header {
@@ -26,10 +27,23 @@ nav {
                 height: 100%;
                 display: inline-block;
                 a {
+                    text-decoration: none;
+                    font-size: 15px;
+                    position: relative;
+                    color: #000000;
                     &:hover {
                         background-color: $bgHover;
+                        text-decoration: none;
                     }
                 }
             }
         }
+}
+
+.nav {
+    justify-content: center;
+}
+
+.navItem:hover {
+    background-color: $bgHover;
 }
