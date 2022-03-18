@@ -1,0 +1,12 @@
+@mixin widthYheight($width,$height){
+    width: $width;
+    height: $height;
+}
+
+.whatsapp{
+    @include widthYheight(90px,90px)
+}
+
+.socialMedia{
+    @include widthYheight(90px,auto)
+}

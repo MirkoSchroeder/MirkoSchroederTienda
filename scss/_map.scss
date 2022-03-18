@@ -1,0 +1,26 @@
+$coloresPrincipales: (
+    colorPrimario: #ebac26,
+    colorSecundario: #E1E1E1,
+    colorHover: #bb891f,
+);
+
+@each $clave, $valor in $coloresPrincipales {
+    .#{$clave}{
+        color: $valor;
+    }
+}
+
+$estilos:(
+    color:red,
+    border: solid 2px black,
+    hover: #bb891f,
+);
+
+header {
+    border-bottom:map-get($estilos,border);
+}
+
+.navItem:hover {
+    background-color:map-get($estilos,hover);
+}
+
