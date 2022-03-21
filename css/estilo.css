@@ -154,6 +154,9 @@ main {
 footer {
   grid-area: footer; }
 
+.bgColor {
+  background-color: #ebac26; }
+
 .productosShop {
   display: grid;
   grid-template-columns: repeat(3, 33%);

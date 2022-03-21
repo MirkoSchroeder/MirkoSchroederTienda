@@ -133,6 +133,10 @@ footer {
     grid-area: footer;
 }
 
+.bgColor {
+    background-color: $bgPrimario;
+}
+
 .productosShop {
     display: grid;
     grid-template-columns: repeat(3, 33%);
