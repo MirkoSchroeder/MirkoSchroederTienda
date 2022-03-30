@@ -10,14 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet icon" href="../assets/img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- LINKEO BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- LINKEO AOS CCS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- LINKEO CCS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
 
     <header>
 
-        <div class="header">
+        <div class="header" data-aos="fade-down">
 
             <!-- MENU DE NAVEGACION -->
             
@@ -43,27 +47,27 @@
 
     </header>
         
-        <main>
+    <main>
             
-            <h1 class="productos">PRODUCTOS</h1>
+        <h1 class="productos">PRODUCTOS</h1>
 
-            <!-- ELECCION DE PRODUCTOS -->
+        <!-- ELECCION DE PRODUCTOS -->
 
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item bgColor" role="presentation">
-                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Buzos</a>
-                </li>
-                <li class="nav-item bgColor" role="presentation">
-                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Remeras</a>
-                </li>
-                <li class="nav-item bgColor" role="presentation">
-                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Zapatillas</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item bgColor" role="presentation">
+                  <a class="nav-link active colorP" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Buzos</a>
+            </li>
+            <li class="nav-item bgColor" role="presentation">
+                <a class="nav-link colorP" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Remeras</a>
+            </li>
+            <li class="nav-item bgColor" role="presentation">
+                <a class="nav-link colorP" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Zapatillas</a>
+            </li>
+        </ul>
+            <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
-            <!-- FOTOS DE PRODUCTOS -->
+        <!-- FOTOS DE PRODUCTOS -->
 
                     <div class="productosShop">
                         <div class="productosNombrePrecio animacionZoom">
@@ -120,63 +124,63 @@
                             <p>$1000</p>
 
                         </div>
-                
+                    
+                        </div>
                     </div>
-                </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 
                     <div class="productosShop">
 
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/musculosa1.jpg" alt="">
-                            <p class="productosTxt">Nike Musculosa Jordan 23 Alpha Buzzer Beater</p>
-                            <p>$1000</p>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/musculosa1.jpg" alt="">
+                        <p class="productosTxt">Nike Musculosa Jordan 23 Alpha Buzzer Beater</p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remera1.jpeg" alt="">
+                        <p class="productosTxt">Nike Remera Jumpman T-Shirt</p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remera2.jpg" alt="">
+                        <p class="productosTxt">Nike Remera NSW SS Tee
+                        </p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remera3.jpg" alt="">
+                        <p class="productosTxt">Nike Remera NSW Tee Olive
+                        </p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remera4.jpg" alt="">
+                        <p class="productosTxt">Nike Remera Sb Diamond AOP
+                        </p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remeraBlanca.jpg" alt="">
+                        <p class="productosTxt">Nike Remera NSW Tee T-Shirt
+                        </p>
+                        <p>$1000</p>
                         </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remera1.jpeg" alt="">
-                            <p class="productosTxt">Nike Remera Jumpman T-Shirt</p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remera2.jpg" alt="">
-                            <p class="productosTxt">Nike Remera NSW SS Tee
-                            </p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remera3.jpg" alt="">
-                            <p class="productosTxt">Nike Remera NSW Tee Olive
-                            </p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remera4.jpg" alt="">
-                            <p class="productosTxt">Nike Remera Sb Diamond AOP
-                            </p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remeraBlanca.jpg" alt="">
-                            <p class="productosTxt">Nike Remera NSW Tee T-Shirt
-                            </p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remera5.jpg" alt="">
-                            <p class="productosTxt">Nike Remera Reissue STMT 3
-                            </p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remera6.jpg" alt="">
-                            <p class="productosTxt">Adidas Remera Coleccion Pokemón Logo</p>
-                            <p>$1000</p>
-                        </div>
-                        <div class="productosNombrePrecio animacionZoom">
-                            <img class="remerasImg" src="../assets/img/remeraBordo.jpg" alt="">
-                            <p class="productosTxt">Nike Remera NSW SS PKT Tee JDI</p>
-                            <p>$1000</p>
-                        </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remera5.jpg" alt="">
+                        <p class="productosTxt">Nike Remera Reissue STMT 3
+                        </p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remera6.jpg" alt="">
+                        <p class="productosTxt">Adidas Remera Coleccion Pokemón Logo</p>
+                        <p>$1000</p>
+                    </div>
+                    <div class="productosNombrePrecio animacionZoom">
+                        <img class="remerasImg" src="../assets/img/remeraBordo.jpg" alt="">
+                        <p class="productosTxt">Nike Remera NSW SS PKT Tee JDI</p>
+                        <p>$1000</p>
+                    </div>
                 
         
                     </div>
@@ -239,57 +243,51 @@
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
 
-        </main>
+    </main>
         
-        <footer>
+    <footer>
 
             <!-- FOOTER -->
+        <div class="recibirOfertas">
+            <div class="ofertas">
+                <h1>RECIBIR TODAS LAS OFERTAS</h1>
+                <div class="input-container ic2 ofertasMail">
+                    <input id="email" class="input" type="text" placeholder=" " />
+                    <div class="cut cut-short"></div>
+                    <label for="email" class="placeholder">Email </label>
+                    </div>
+                <button type="text" class="submit botonMail">Enviar</button>
+            </div> 
+        </div>
     
-            <div class="recibirOfertas">
-    
-                <div class="ofertas">
-                    <h1>RECIBIR TODAS LAS OFERTAS</h1>
-                    <div class="input-container ic2 ofertasMail">
-                        <input id="email" class="input" type="text" placeholder=" " />
-                        <div class="cut cut-short"></div>
-                        <label for="email" class="placeholder">Email </label>
-                      </div>
-                    <button type="text" class="submit botonMail">Enviar</button>
-                </div>
-                
-            </div>
-    
-            
             <!-- REDES SOCIALES -->
-            
-            <div class="redesSociales">
-                
-                <img class="socialMedia" src="../assets/img/bxl-instagram.svg" alt="instagram">
-                <img class="socialMedia" src="../assets/img/bxl-facebook.svg" alt="facebook">
+        <div class="redesSociales">
+            <img class="socialMedia" src="../assets/img/bxl-instagram.svg" alt="instagram">
+            <img class="socialMedia" src="../assets/img/bxl-facebook.svg" alt="facebook">
+        </div>
     
-    
-            </div>
-    
-            <a class="wsp" href="https://wa.me/542233126798" target="_blank">
-                <img class="whatsapp" src="../assets/img/bxl-whatsapp.svg" alt="whatsapp">
-            </a>
-            
+        <a class="wsp" href="https://wa.me/542233126798" target="_blank">
+            <img class="whatsapp" src="../assets/img/bxl-whatsapp.svg" alt="whatsapp">
+        </a>
             
             <!-- COPYRIGHT -->
-            
-            <div class="copyright">
-               <p>© Copyright LaRepo - 2022 Todos los derechos reservados.</p>
-            </div>
-            
+        <div class="copyright">
+            <p>© Copyright LaRepo - 2022 Todos los derechos reservados.</p>
+        </div>
+ 
+    </footer>
             <!-- CIERRE DE FOOTER -->
-    
-        </footer>
 
-    <!-- SCRIPTS -->
+            <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
     <script>
     new WOW().init();
